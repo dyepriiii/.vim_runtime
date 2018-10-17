@@ -32,3 +32,9 @@ let g:vimwiki_list = [{'path': '~/Dropbox/vimwikis/dyeprii/', 'path_html': '~/Dr
 """""""""""""""""""""""""
 let g:nerdtree_tabs_open_on_gui_startup=0
 let g:airline#extensions#tabline#enabled = 1
+
+"""
+" => vim-terraform
+"""
+let g:terraform_align=1
+autocmd FileType terraform setlocal commentstring=#%s
