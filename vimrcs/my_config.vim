@@ -91,4 +91,5 @@ let g:syntastic_puppet_checkers=['puppet']
 " let &t_SI = "\<Esc>[6 q"
 " let &t_SR = "\<Esc>[4 q"
 " let &t_EI = "\<Esc>[2 q"
-"
+
+autocmd BufEnter *.yml set ai sw=2 ts=2 sta et fo=croql
