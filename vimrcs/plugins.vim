@@ -15,7 +15,7 @@ if has('gui_running')
     let g:airline_theme='solarized'
     let g:airline_powerline_fonts = 1
 else
-    let g:airline_theme='solarized'
+    let g:airline_theme='papercolor'
     let g:airline_powerline_fonts = 1
 endif
 

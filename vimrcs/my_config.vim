@@ -68,7 +68,7 @@ inoremap $t <><esc>i
 iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 
 set cc=80
-highlight colorcolumn ctermbg=0
+highlight colorcolumn ctermbg=30
 highlight colorcolumn guibg=#073642
 
 set lazyredraw
